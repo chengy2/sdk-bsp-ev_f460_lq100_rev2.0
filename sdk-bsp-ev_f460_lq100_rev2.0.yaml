@@ -1,0 +1,80 @@
+board:
+  buy_url_cn: N/A
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: DAP-LINK
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/010.jpg
+  name: EV_F460_LQ100_REV2.0
+  price_cn: N/A CNY
+  price_global: N/A USD
+  sale_contact_cn: N/A
+  sale_contact_global: N/A
+  small_image: documents/images/010_s.jpg
+  vendor: XHSC
+  version: ''
+chip:
+  chip_name: HC32F460PETB
+  clock_source: HSE
+  device_vendor: XHSC
+  family_name: HC32
+  rx_name: PA10
+  series_name: HC32F4
+  source_freq: '8000000'
+  sub_series_name: HC32F460
+  target_freq: '200000000'
+  tx_name: PA9
+  uart_name: UART1
+docs: []
+example_projects: []
+features:
+- EV_F460_LQ100_V2 is a evaluation board officially launched by XHSC, equipped with
+  HC32F460PETB MCU, based on ARM Cortex-M4 core, with a maximum frequency of 200MHz
+  and abundant onboard resources, which can give full play to the chip performance
+  of HC32F460PETB.
+features_zh:
+- EV_F460_LQ100_V2 是 XHSC 官方推出的开发板，搭载 HC32F460PETB 芯片，基于 ARM Cortex-M4 内核，最高主频 200
+  MHz，具有丰富的板载资源，可以充分发挥 HC32F460PETB 的芯片性能。
+pkg_type: Board_Support_Packages
+pkg_vendor: XHSC
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: HC32F460_Template
+  project_type: rt-thread|@full|@4.0.4
+yaml_version: 3
